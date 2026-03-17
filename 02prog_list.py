@@ -16,8 +16,23 @@ nums.append(friends)#append adds the entire friends list as a single element to 
 friends.pop()#pop removes the last element from the list
 friends.insert(len(friends), "Ravan")#insert adds an element at a specific index in the list
 
-print(friends)
+#print(friends)
 new = [2, 3, 4]
 new.reverse()#reverse reverses the list
-print(new)  
+#print(new)  
 new2 = new.copy();
+
+
+
+num_grid=[ 
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+#print(num_grid[0][1])
+
+for row in num_grid:
+    # print(row)
+    for col in row:
+        print(col* "*")
